@@ -1,0 +1,15 @@
+.project-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #20262E;
+    color: white;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1000px){
+    .project-heading{
+        font-size: 30px;
+    }
+}

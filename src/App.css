@@ -1,0 +1,15 @@
+#root {
+  max-width: 95rem;
+  margin: 0 auto;
+  padding: 2rem;
+  
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+

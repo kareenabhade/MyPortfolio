@@ -1,0 +1,59 @@
+.image-container{
+    display: flex;
+    padding-top: 50px;
+}
+.books{
+    height: 100px;
+    width: 100px;
+    margin-top: 200px;
+}
+.programming{
+    height: 200px;
+    width: 240px;
+    margin-top: 100px;
+
+}
+.div{
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+}
+.software{
+    height: 300px;
+    width: 300px;
+}
+.phone{
+    height: 100px;
+    width: 100px;
+    margin-top: 200px;
+}
+
+@media screen and (max-width:1000px) {
+    .programming{
+        height: 70px;
+        width: 90px;
+        margin-top:180px;
+    }
+    .software{
+        height:150px;
+        width: 150px;
+        margin-top: 100px;
+    }
+    .div{
+        height: 100px;
+        width: 100px;
+        margin-top: 150px;
+    }
+    .books{
+        height:50px;
+        width:50px;
+    }
+    .phone{
+        height: 50px;
+        width: 50px;
+    }
+    .image-container{
+        height: 300px;
+        padding-top: 0px;
+    }
+}

@@ -1,0 +1,132 @@
+.i-am{
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+}
+#kareena{
+    font-size:60px;
+    margin: 10px;
+    font-weight: 900;
+    color: #687EFF;
+}
+.i-am-kareena{
+    display: flex;
+}
+.hello{
+    color: white;
+    display: flex;
+}
+.hello1{
+    padding: 10px 10px 0px 0px;
+    font-weight: bolder;
+}
+.sd{
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+}
+.intro{
+    margin-top: 5%;
+    animation: display 6s ease 0s 1 forwards ;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;    
+}
+
+.intro-content{
+    animation: slide-X 2s ease 0s 1 backwards;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.girl{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    padding: 15px;
+    padding-bottom: 0px;
+    object-fit:cover;
+    background-color: grey;
+    animation: display 5s ease 0s 1 backwards;
+}
+/* .girl:hover{
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+.computer-system{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+
+@keyframes slide-X{
+    0%{left:-200px;}
+    100%{left:0px;}
+}
+
+@keyframes display {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+@media screen and (max-width:1000px){
+    .intro{margin-top: 10%;}
+    .i-am{font-size: 40px;}
+    #kareena{font-size: 40px;}
+    .sd{font-size: 40px;}
+    .girl{height: 150px;
+        width: 150px;}
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wave{
+    height: 50px;
+    width: 50px;
+    animation: hii 3s infinite;
+    transform-origin: 70% 70%;;
+}
+
+@keyframes hii {
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(14deg);
+    }
+    20%{
+        transform: rotate(-8deg);
+    }
+    30%{
+        transform: rotate(14deg);
+    }
+    40%{
+        transform: rotate(-4deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+

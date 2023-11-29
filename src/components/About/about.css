@@ -1,0 +1,80 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-heading{
+    padding-bottom: 10px;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: black;
+}
+.about-skill{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 500px;
+    width: 70%;
+}
+.about-content{
+    text-align: justify;
+}
+.abt{
+    width: 45%;
+    margin-right: 120px;
+    text-align: left;
+    padding: 50px;
+    color: black;
+}
+.skll{
+    width: 45%;
+    margin-left: 120px;
+    text-align: left;
+    padding: 50px;
+    color: black;
+}
+
+.main-container{
+    background-color: white;
+    background-image: url('https://media.istockphoto.com/id/1370858067/vector/neutral-abstract-background-minimal-poster-template-with-diagonal-shapes-calm-design-with.jpg?s=612x612&w=0&k=20&c=18U2vCQ0oVYOi0uBiGUEGWaUWf4dgHKCURaJvRssIGI=');
+    background-size: cover;
+    color: back;
+    padding: 20px;
+    padding-top: 100px;
+}
+.skill-part{
+    display: flex;
+}
+
+@media screen and (max-width:1500px){
+    .main-container{
+        flex-direction: column;
+        height: 1000px;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-heading{
+        font-size: 35px;
+    }
+    .about-skill{
+        flex-direction: column;
+        height: 500px;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    .abt{
+        width: 100%;
+        margin-top: 300px;
+    }
+    .skll{
+        width: 100%;
+        margin: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
