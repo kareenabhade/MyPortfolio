@@ -3,13 +3,19 @@
     margin: 50px 150px;
     width: 700px;
     flex-direction: column;
-    background-color: #2B2730;
+    background-color: #232D3F;
     padding: 30px;
     border-radius: 25px;
     justify-content: center;
     align-items: center;
     text-align: left;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.box-projectCard:hover{
+    border-radius: 0px;
+    transition: 0.5s ease-in-out;
+
 }
 .project-img{
     height: 300px;
@@ -24,7 +30,8 @@
 .project-img:hover{
     transform: scale(1.05);
     opacity: 0.9;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 0px;
     
 }
 

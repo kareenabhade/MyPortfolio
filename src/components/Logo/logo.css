@@ -6,8 +6,8 @@
     cursor: pointer;
 }
 .contact-logo:hover{
-    height: 40px;
-    width: 40px;
+    height: 33px;
+    width: 33px;
 }
 @media screen and (max-width:1000px){
     .contact-logo{

@@ -51,10 +51,18 @@
     border-radius: 5px;
 }
 
+
 ul{
   display: flex;
   list-style: none;
   margin-top: 20px;
+}
+
+@media screen and (max-width:700px){
+
+  .nav-components{
+    display: none;
+  }
 }
 
 @keyframes display {
