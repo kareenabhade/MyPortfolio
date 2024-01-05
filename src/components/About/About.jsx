@@ -1,10 +1,12 @@
 import React from 'react'
 import './about.css'
 import SkillsCard from '../SkillsCards/SkillsCard';
+import ResponsiveNavBar from '../ResponsiveNavbar/ResponsiveNavbar';
 
 function About() {
   return (
     <>
+    <ResponsiveNavBar />
    <div id='about-page' className='main-container'>
    <h1 className='about-heading'> About Me</h1>
     <div className='about-container'>
@@ -15,6 +17,8 @@ function About() {
       </div>
       <div className='skll'>
         <h3>My Skills <br /><br /></h3>
+
+
         <div className='skill-part'>
     <SkillsCard src='src\images\html.png' content='HTML'/>
     <SkillsCard src='src\images\csss.png' content='CSS'/>
@@ -27,6 +31,8 @@ function About() {
     </div>
       </div>
       </div>
+
+
       
     </div>
     </div>

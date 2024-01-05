@@ -5,10 +5,7 @@
     object-fit: cover;
     cursor: pointer;
 }
-.contact-logo:hover{
-    height: 33px;
-    width: 33px;
-}
+
 @media screen and (max-width:1000px){
     .contact-logo{
         height: 25px;

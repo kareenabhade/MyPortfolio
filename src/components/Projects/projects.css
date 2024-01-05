@@ -7,6 +7,9 @@
     color: white;
     flex-direction: column;
 }
+.project-heading{
+    margin-top: 50px;
+}
 
 @media screen and (max-width:1000px){
     .project-heading{

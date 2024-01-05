@@ -1,11 +1,13 @@
 import React from 'react'
 import './intro.css'
 import System from '../System-image/System'
+import ResponsiveNavBar from '../ResponsiveNavbar/ResponsiveNavbar'
 
 
 function Intro() {
   return (
     < >
+    <ResponsiveNavBar />
     <div id='home-page' className='intro'>
      <div className='intro-content'>
       <div className='hello'>
