@@ -7,7 +7,8 @@ function Contacts() {
   return (
     <>
     <ResponsiveNavBar />
-    <div id='contacts-page' className='contact-heading'>
+    <div id='contacts-page'>
+    <div  className='contact-heading'>
     <p className='nice'>Nice to meet you !</p>
     <span className='smile'>&#128578;</span>
     </div>
@@ -39,8 +40,8 @@ function Contacts() {
           </p>
         </div>
 
-        </div>
-       
+    </div>
+    </div> 
     </>
   )
 }

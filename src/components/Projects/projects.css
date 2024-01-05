@@ -1,5 +1,6 @@
 .project-box{
     display: flex;
+    animation: display 3s ease 0s 1 forwards;
     justify-content: center;
     align-items: center;
     padding: 40px;
@@ -15,4 +16,9 @@
     .project-heading{
         font-size: 30px;
     }
+}
+
+@keyframes display {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
 }

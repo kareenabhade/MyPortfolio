@@ -37,6 +37,7 @@
 }
 
 .main-container{
+    animation: display 3s ease 0s 1 forwards;
     background-color: white;
     background-image: url('https://media.istockphoto.com/id/1370858067/vector/neutral-abstract-background-minimal-poster-template-with-diagonal-shapes-calm-design-with.jpg?s=612x612&w=0&k=20&c=18U2vCQ0oVYOi0uBiGUEGWaUWf4dgHKCURaJvRssIGI=');
     background-size: cover;
@@ -78,3 +79,7 @@
     }
 }
 
+@keyframes display {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

@@ -8,6 +8,11 @@
     flex-direction: column;
     padding: 20px;
 }
+
+#contacts-page{
+    animation: display 3s ease 0s 1 forwards;
+}
+
 .end p .kb{
     color: rgb(90, 90, 255);
 }
@@ -89,3 +94,7 @@ img{
     }
 }
 
+@keyframes display {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
