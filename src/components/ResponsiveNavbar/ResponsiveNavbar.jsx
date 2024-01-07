@@ -9,8 +9,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import '../Navbar/navbar.css';
 import {useNavigate} from 'react-router-dom';
+import Avatar from '@mui/material/Avatar'
 
 const pages = ['Home', 'About', 'Projects', 'Contacts'];
 
@@ -59,10 +59,8 @@ function ResponsiveNavBar() {
             alignItems: 'center',
           }}
         >
-          <div className='logo-name'>
-            <img className='logo' src='src\images\k.png' alt='logo' />
-          </div>
 
+          <Avatar sx={{backgroundColor:'white', padding:'1px', mr:'10px', height:'30px', width:'30px'}}  alt="logo" src="src\images\k.png" />
           <Typography
             variant="h6"
             sx={{
