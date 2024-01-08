@@ -25,9 +25,6 @@ function Contacts() {
         <a href='https://instagram.com/kareena_bhade_001?igshid=MzMyNGUyNmU2YQ==' target='_blank' rel='noopener noreferrer'>
         <Logo src='src\images\instagram.png' alt='instagram' />
         </a>
-        <a href='' target='_blank' rel='noopener noreferrer'>
-        <Logo src='src\images\telephone.png' alt='telephone' />
-        </a>
         <a href='mailto:kareenabhade16@gmail.com' target='_blank' rel='noopener noreferrer'>
         <Logo src='src\images\gmail.png' alt='gmail' />
         </a>
