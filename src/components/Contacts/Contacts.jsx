@@ -1,6 +1,6 @@
 import React from 'react'
 import './contacts.css'
-import Logo from '../Logo/logo'
+import Logo from '../Logo/Logo'
 import ResponsiveNavBar from '../ResponsiveNavbar/ResponsiveNavbar'
 
 function Contacts() {
