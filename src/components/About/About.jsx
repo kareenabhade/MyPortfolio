@@ -6,7 +6,7 @@ import html from '../images/html.png';
 import css from '../images/csss.png';
 import js from '../images/js.png';
 import react from '../images/react.png';
-import Cpp from '../images/Cpp.png';
+import Cpp from '../images/cpp.png';
 import database from '../images/database.png';
 
 
