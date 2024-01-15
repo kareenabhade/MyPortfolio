@@ -2,6 +2,13 @@ import React from 'react'
 import './about.css'
 import SkillsCard from '../SkillsCards/SkillsCard';
 import ResponsiveNavBar from '../ResponsiveNavbar/ResponsiveNavbar';
+import html from '../images/html.png';
+import css from '../images/csss.png';
+import js from '../images/js.png';
+import react from '../images/react.png';
+import Cpp from '../images/Cpp.png';
+import database from '../images/database.png';
+
 
 function About() {
   return (
@@ -20,14 +27,14 @@ function About() {
 
 
         <div className='skill-part'>
-    <SkillsCard src='src/images/html.png' content='HTML'/>
-    <SkillsCard src='src/images/csss.png' content='CSS'/>
-    <SkillsCard src='src/images/js.png' content='JS'/>
+    <SkillsCard src={html} content='HTML'/>
+    <SkillsCard src={css} content='CSS'/>
+    <SkillsCard src={js} content='JS'/>
     </div>
     <div className='skill-part'>
-    <SkillsCard src='src/images/react.png' content='REACT'/>
-    <SkillsCard src='src/images/Cpp.png' content='C++'/>
-    <SkillsCard src='src/images/database.png' content='SQL'/>
+    <SkillsCard src={react} content='REACT'/>
+    <SkillsCard src={Cpp} content='C++'/>
+    <SkillsCard src={database} content='SQL'/>
     </div>
       </div>
       </div>

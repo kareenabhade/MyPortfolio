@@ -1,15 +1,20 @@
 import React from 'react'
 import './system.css'
+import books from '../images/stack-of-books.png'
+import programming from '../images/programming.png'
+import software from '../images/software.png'
+import div from '../images/div.png'
+import phone from '../images/phone.png'
 
 function System() {
   return (
     <>
     <div className='image-container'>
-    <img  className='books' src='src/images/stack-of-books.png'></img>
-    <img className='programming' src='src/images/programming.png'></img>
-    <img className='software' src='src/images/software.png'></img>
-    <img className='div' src='src/images/div.png'></img>
-    <img className='phone' src='src/images/phone.png'></img>
+    <img  className='books' src={phone}></img>
+    <img className='programming' src={programming}></img>
+    <img className='software' src={software}></img>
+    <img className='div' src={div}></img>
+    <img className='phone' src={phone}></img>
     </div>
     
     </>

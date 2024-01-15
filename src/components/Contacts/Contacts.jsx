@@ -2,6 +2,11 @@ import React from 'react'
 import './contacts.css'
 import Logo from '../Logo/Logo'
 import ResponsiveNavBar from '../ResponsiveNavbar/ResponsiveNavbar'
+import lnkdn from '../images/linkedin.png';
+import github from '../images/github.png';
+import insta from '../images/instagram.png';
+import gmail from '../images/gmail.png';
+
 
 function Contacts() {
   return (
@@ -17,16 +22,16 @@ function Contacts() {
 
         <div className='contact-logo'>
         <a href='https://www.linkedin.com/in/kareena-bhade-b914a7260' target='_blank' rel='noopener noreferrer'>
-        <Logo src='src\images\linkedin.png' alt='linkedin' />
+        <Logo src={lnkdn} alt='linkedin' />
         </a>
         <a href='https://github.com/kareenabhade' target='_blank' rel='noopener noreferrer'>
-        <Logo src='src\images\github.png' alt='github' />
+        <Logo src={github} alt='github' />
         </a>
         <a href='https://instagram.com/kareena_bhade_001?igshid=MzMyNGUyNmU2YQ==' target='_blank' rel='noopener noreferrer'>
-        <Logo src='src\images\instagram.png' alt='instagram' />
+        <Logo src={insta} alt='instagram' />
         </a>
         <a href='mailto:kareenabhade16@gmail.com' target='_blank' rel='noopener noreferrer'>
-        <Logo src='src\images\gmail.png' alt='gmail' />
+        <Logo src={gmail} alt='gmail' />
         </a>
         </div>
 

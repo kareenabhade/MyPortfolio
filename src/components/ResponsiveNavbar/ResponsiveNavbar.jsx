@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import {useNavigate} from 'react-router-dom';
 import Avatar from '@mui/material/Avatar'
+import k from '../images/k.png'
 
 const pages = ['Home', 'About', 'Projects', 'Contacts'];
 
@@ -60,7 +61,7 @@ function ResponsiveNavBar() {
           }}
         >
 
-          <Avatar sx={{backgroundColor:'white', padding:'1px', mr:'10px', height:'30px', width:'30px'}}  alt="logo" src="src/images/k.png" />
+          <Avatar sx={{backgroundColor:'white', padding:'1px', mr:'10px', height:'30px', width:'30px'}}  alt="logo" src={k} />
           <Typography
             variant="h6"
             sx={{
