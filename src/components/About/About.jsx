@@ -20,14 +20,14 @@ function About() {
 
 
         <div className='skill-part'>
-    <SkillsCard src='src\images\html.png' content='HTML'/>
-    <SkillsCard src='src\images\csss.png' content='CSS'/>
-    <SkillsCard src='src\images\js.png' content='JS'/>
+    <SkillsCard src='src/images/html.png' content='HTML'/>
+    <SkillsCard src='src/images/csss.png' content='CSS'/>
+    <SkillsCard src='src/images/js.png' content='JS'/>
     </div>
     <div className='skill-part'>
-    <SkillsCard src='src\images\react.png' content='REACT'/>
-    <SkillsCard src='src\images\Cpp.png' content='C++'/>
-    <SkillsCard src='src\images\database.png' content='SQL'/>
+    <SkillsCard src='src/images/react.png' content='REACT'/>
+    <SkillsCard src='src/images/Cpp.png' content='C++'/>
+    <SkillsCard src='src/images/database.png' content='SQL'/>
     </div>
       </div>
       </div>

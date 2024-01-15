@@ -4,6 +4,7 @@ import System from '../System-image/System'
 import ResponsiveNavBar from '../ResponsiveNavbar/ResponsiveNavbar'
 
 
+
 function Intro() {
   return (
     < >
@@ -13,13 +14,13 @@ function Intro() {
       <div className='hello'>
           <h4 className='hello1' >Hello,</h4>
               <div className='home'>
-                  <img className="wave" src='src\images\wave.png'></img>
+                  <img className="wave" src='src/images/wave.png'></img>
               </div>
       </div> 
         <h1 className='i-am'>I'm <span id='kareena'>Kareena</span> </h1>
       <h2 className='sd'>Software Developer</h2>
       </div>
-      <img className='girl' src='src\images\girl.png'></img>
+      <img className='girl' src='src/images/girl.png'></img>
       <System />
     </div>
     
