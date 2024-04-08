@@ -13,7 +13,7 @@ import {useNavigate} from 'react-router-dom';
 import Avatar from '@mui/material/Avatar'
 import k from '../images/k.png'
 
-const pages = ['Home', 'About', 'Projects', 'Contacts'];
+const pages = ['Home 🏠', 'About 🙋‍♀️', 'Projects 💻', 'Contacts 📞'];
 
 function ResponsiveNavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -27,6 +27,8 @@ function ResponsiveNavBar() {
   };
   const navigate = useNavigate();
   function navigateToPage(page){
+     page= page.replace(/[^a-zA-Z0-9]/g, '');
+
     switch (page) {
         case 'Home':
             navigate('/');

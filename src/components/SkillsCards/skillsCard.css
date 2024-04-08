@@ -11,7 +11,9 @@
     width: 90px;
     flex-direction: column;
     background-color: #F6F4EB;
-    border-radius: 25%;
+    border-radius: 5%;
+    animation: slide-Y 2s ease 0s 1 forwards;
+    position: relative;
 }
 
 .skill-card:hover{
@@ -23,16 +25,24 @@
     width: 50px;
     object-fit: cover;
     display: flex;
-    padding: 5px;
-    margin-right: 10px;
+    padding: 6px;
+    margin: 10px 10px 0px 10px;
 }
 .head:hover{
-    height: 60px;
-    width: 60px;
     object-fit: cover;
     transition: all 0s ease 0s;
 }
 
 .skill-name{
     font-family: 'Source Code Pro', monospace;
+}
+
+@keyframes slide-Y {
+    0% {
+        bottom: -100px;
+    }
+
+    100% {
+        bottom: 0px;
+    }
 }

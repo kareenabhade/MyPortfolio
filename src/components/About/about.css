@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 .about-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .about-heading{
-    padding-bottom: 10px;
     font-weight: bolder;
     display: flex;
     text-align: center;
@@ -14,25 +15,29 @@
 .about-skill{
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    height: 500px;
+    flex-direction: column;
+    height: 100%;;
     width: 70%;
 }
 .about-content{
     text-align: justify;
+    font-family: "Nunito";
+    font-weight: 700;
+    animation: slide-Y 2s ease 0s 1 forwards;
+    position: relative;
 }
 .abt{
-    width: 45%;
+    width: 100%;
     margin-right: 120px;
     text-align: left;
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
     color: black;
 }
 .skll{
-    width: 45%;
-    margin-left: 120px;
+    width: 100%;
+    margin-right: 120px;
     text-align: left;
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
     color: black;
 }
 
@@ -49,7 +54,7 @@
     display: flex;
 }
 
-@media screen and (max-width:1500px){
+@media screen and (max-width:1000px){
     .main-container{
         flex-direction: column;
         height: 1000px;
@@ -77,9 +82,17 @@
         align-items: center;
         justify-content: center;
     }
+    .skill-part{
+        flex-direction: column;
+    }
 }
 
 @keyframes display {
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+@keyframes slide-Y {
+    0% { bottom: -100px;}
+    100% { bottom: 0px; }
 }

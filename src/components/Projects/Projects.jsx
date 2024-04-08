@@ -2,9 +2,11 @@ import React from 'react'
 import './projects.css'
 import ProjectCard from '../ProjectCard/ProjectCard'
 import ResponsiveNavBar from '../ResponsiveNavbar/ResponsiveNavbar'
-import todo from '../images/todo.png'
+import Chatlingual from '../images/chat-lingual.png'
 import portfolioImg from '../images/img-portfolio.png'
-import whatsappImg from '../images/whatsapp-clone.png'
+import weatherWebsite from '../images/weather-website.png'
+import ticTacToe from '../images/ticTacToe.png'
+import crud from '../images/CRUD.png'
 
 function Projects() {
   
@@ -12,11 +14,17 @@ function Projects() {
     <>
     <ResponsiveNavBar />
     <div id='projects-page' className='project-box'>
-      <h1 className='project-heading'>My Projects</h1>
-      <ProjectCard img={todo} name='Todo Web App' descp='This web app makes project management fun with a simple design. Manage tasks & events, attach files, delegate and share items in seconds.'/>
-      <ProjectCard img={portfolioImg} name='My Portfolio' descp='This is my portfolio website where all my technical work is hosted.' />
-      <ProjectCard img={whatsappImg} name='Whatsapp Clone' descp='This is a whatsapp clone that buils an efficient and real time text based communication solution for the web' />
-      
+      <h1 className='project-heading'>My Projects 🖊️</h1>
+      <ProjectCard img={Chatlingual} name='Chat-lingual' descp='It is a chating platform where users from different language background can chat in their native language, and that text automatically get translated in real time using language translation APIs.' 
+                   url='https://github.com/kareenabhade/Chat-lingual' techStack={["reactjs", "mui", "nodejs", "api"]} />
+      <ProjectCard img={portfolioImg} name='My Portfolio' descp='A portfolio website that is designed and build by me to showcase my work and skills.' 
+                    url='https://my-portfolio-beta-five-38.vercel.app/' techStack={["reactjs", "css" ]} />
+      <ProjectCard img={weatherWebsite} name='Weather-website' descp='A weather website that provide information about current weather conditions around the world. ' 
+                    url='https://weather-website-black.vercel.app/' techStack={["reactjs", "css", "api"]}  />
+      <ProjectCard img={crud} name='CRUD' descp="A CRUD web application where user can add , update, and delete the book."
+                    url='https://github.com/kareenabhade/CRUD' techStack={["reactjs", "nodejs", "css", "mysql"]} />
+      <ProjectCard img={ticTacToe} name='TicTacToe' descp='A simple user friendly tic-tac-toe game.' 
+                    url='https://tic-tac-toe-psi-eosin.vercel.app/' techStack={["reactjs", "css"]}  />
     </div>
     </>
   )
