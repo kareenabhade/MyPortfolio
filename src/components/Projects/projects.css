@@ -24,3 +24,13 @@
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+@media screen and (max-width:500px) {
+   .project-box{
+    padding: 15px;
+   }
+   .project-heading{
+       font-size: 22px;
+   }
+
+}

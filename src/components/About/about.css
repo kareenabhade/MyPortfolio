@@ -87,6 +87,23 @@
     }
 }
 
+@media screen and (max-width:500px) {
+    .about-heading {
+            font-size: 25px; }
+    .abt{
+        padding: 20px;
+    }
+    .skll {
+        padding: 20px;
+    }
+    .main-container{
+        padding-top: 50px;
+        height: 800px;
+    }
+    .about-container{
+        height: 390px;
+    }
+}
 @keyframes display {
     0% {opacity: 0;}
     100% {opacity: 1;}

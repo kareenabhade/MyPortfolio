@@ -97,6 +97,12 @@ img{
     }
 }
 
+@media screen and (max-width:500px) {
+    .container-contacts{
+        height: 300px;
+    }
+}
+
 @keyframes display {
     0% {opacity: 0;}
     100%{opacity: 1;}

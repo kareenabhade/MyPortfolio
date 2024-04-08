@@ -57,3 +57,40 @@
         padding-top: 0px;
     }
 }
+
+@media screen and (max-width:500px) {
+    .programming {
+            height: 50px;
+            width: 70px;
+            margin-top: 140px;
+        }
+    
+        .software {
+            height: 130px;
+            width: 130px;
+            margin-top: 60px;
+        }
+    
+        .div {
+            height: 80px;
+            width: 80px;
+            margin-top: 110px;
+        }
+    
+        .books {
+            height: 30px;
+            width: 30px;
+            margin-top: 160px;
+        }
+    
+        .phone {
+            height: 30px;
+            width: 30px;
+            margin-top: 160px;
+        }
+    
+        .image-container {
+            height: 200px;
+            padding-top: 0px;
+        }
+}

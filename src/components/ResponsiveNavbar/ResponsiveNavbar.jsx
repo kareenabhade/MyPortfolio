@@ -63,7 +63,7 @@ function ResponsiveNavBar() {
           }}
         >
 
-          <Avatar sx={{backgroundColor:'white', padding:'1px', mr:'10px', height:'30px', width:'30px'}}  alt="logo" src={k} />
+          <Avatar sx={{backgroundColor:'white', padding:'1px', mr:'10px', height:{md:'30px', xs:"25px"}, width:{md:'30px', xs:"25px"}}}  alt="logo" src={k} />
           <Typography
             variant="h6"
             sx={{
@@ -71,6 +71,7 @@ function ResponsiveNavBar() {
               mr: 2,
               fontFamily: 'sans-serif',
               fontWeight: 700,
+              fontSize:{xs:"15px"},
               color: 'inherit',
               textDecoration: 'none',
               display: 'flex', // Hide on small screens
@@ -104,7 +105,7 @@ function ResponsiveNavBar() {
                 onClick={handleOpenNavMenu}
                 color="inherit"
               >
-                <MenuIcon />
+                <MenuIcon size="small" />
               </IconButton>
               <Menu
                 id="menu-appbar"

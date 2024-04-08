@@ -96,8 +96,33 @@
         width: 80%;
         padding: 20px;
     }
-    .techBox {
+    .techStack {
         font-size: 15px;
     }
   
+}
+@media screen and (max-width:500px) {
+       .project-img {
+            width: 100%;
+            height: 200px;
+        }
+        .project-name{
+            font-size: medium;
+        }
+    
+        .project-descp {
+            width: 100%;
+            font-size: small;
+        }
+    
+        .box-projectCard {
+            width: 100%;
+            padding: 10px;
+            margin: 20px;
+            border: solid black 2px;
+        }
+    
+        .techStack {
+            font-size: 10px;
+        }
 }

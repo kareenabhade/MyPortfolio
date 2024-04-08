@@ -37,6 +37,12 @@
     font-family: 'Source Code Pro', monospace;
 }
 
+@media screen and (max-width:500px) {
+  .skill-card{
+    margin: 5px;
+  }
+}
+
 @keyframes slide-Y {
     0% {
         bottom: -100px;

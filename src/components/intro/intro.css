@@ -127,3 +127,30 @@
 }
 
 
+@media screen and (max-width:500px) {
+    .intro {
+        margin-top: 30%;
+    }
+
+    .i-am {
+        font-size: 20px;
+    }
+
+    #kareena {
+        font-size: 20px;
+    }
+
+    .sd {
+        font-size: 20px;
+    }
+
+    .girl {
+        height: 100px;
+        width: 100px;
+        margin-top: 20px;
+    }
+    .wave{
+        height: 30px;
+        width: 30px;
+    }
+}
