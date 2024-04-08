@@ -22,6 +22,9 @@ body {
   align-items: center;
   background-color: black;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 
 
 
